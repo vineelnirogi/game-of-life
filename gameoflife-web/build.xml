@@ -6,7 +6,7 @@
 
     <taskdef name="jmeter" classname="org.programmerplanet.ant.taskdefs.jmeter.JMeterTask"
              classpathref="jmeter.lib.path"/>
-
+<list/>
     <target name="jmeter">
         <jmeter jmeterhome="${basedir}/tools/jmeter" testplan="${basedir}/src/test/jmeter/gameoflife.jmx"
                 resultlog="${basedir}/target/jmeter-results-100-users.jtl">
